@@ -93,11 +93,25 @@ body{
         gap: 0.5rem
     }
 
+    .sidebar li {
+        list-style-type: none;
+    }
+
     .sidebar h3 {
         font-size: 2rem;
     }
 
 .content{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
     background-color: brown;
 }
+
+    .project{
+        background-color: white;
+    }
+
+    .announcement-trend {
+        background-color: black;
+    }
     
